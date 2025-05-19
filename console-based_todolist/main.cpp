@@ -22,7 +22,12 @@ private:
 		}
 		file.close();
 	}
-	void saveData() {
+	void saveData(json user) {
+		for(auto& account: accounts) {
+			if (account["id"] == user["id"]) {
+				account = user;
+			}
+		}
 		ofstream file("accounts.json");
 		if (file.is_open()) {
 			file << accounts.dump(4);
@@ -85,6 +90,11 @@ public:
 				return true;
 			}
 		}
+	}
+	bool addTodo(const string todo) {
+		user["todos"].push_back(todo);
+		saveData();
+		return true;
 	}
 };
 
