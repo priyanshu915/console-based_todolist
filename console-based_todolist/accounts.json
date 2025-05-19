@@ -1,0 +1,50 @@
+[
+    {
+        "email": "priyanshu@gmail.com",
+        "id": "_FRaqbC9w",
+        "password": "priyanshu123",
+        "todos": [
+            [
+                "how are you",
+                true
+            ],
+            [
+                "eating food",
+                false
+            ],
+            [
+                "go to market",
+                true
+            ],
+            [
+                "metting with google ceo",
+                false
+            ]
+        ],
+        "username": "priyanshu"
+    },
+    {
+        "email": "priyanshu@gmail.com",
+        "id": "_FRaqbC9w",
+        "password": "priyanshu123",
+        "todos": [
+            [
+                "how are you",
+                true
+            ],
+            [
+                "eating food",
+                false
+            ],
+            [
+                "go to market",
+                true
+            ],
+            [
+                "metting with google ceo",
+                false
+            ]
+        ],
+        "username": "priyanshu"
+    }
+]
